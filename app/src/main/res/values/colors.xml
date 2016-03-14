@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CD2213</color>
+    <color name="colorPrimaryDark">#7b0a14</color>
+    <color name="colorAccent">#CD2213</color>
+    <color name="list_selector">#aa8e0a08</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="silver">#999999</color>
+
+    <color name="spinnerItem">#AAAAAA</color>
+    <color name="editText">#AAAAAA</color>
+    <color name="buttonText">#EEEEEE</color>
+    <color name="headerText">#EEEEEE</color>
+</resources>

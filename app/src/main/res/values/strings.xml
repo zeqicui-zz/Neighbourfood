@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Real Estate</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_opened">Select an Item</string>
+    <string name="drawer_closed">Real Estate</string>
+
+    <string name="script_url">http://thomaslui.me/hack3/index.php/</string>
+    <string name="files_url">http://thomaslui.me/hack3/files/</string>
+    <string name="thumbnails_url">http://thomaslui.me/hack3/files/thumbnail/</string>
+    <string name="lang_code">en</string>
+    <string name="property_uri">property</string>
+    <string name="website_enabled">true</string>
+
+    <string name="section_exhibits">Exhibits</string>
+    <string name="section_gallery">Gallery</string>
+    <string name="section_map">Near Properties</string>
+    <string name="section_quick_search">Quick search</string>
+    <string name="search_hint">ID, address, search criteria</string>
+    <string name="empty_message">Sorry, no results found!</string>
+    <string name="network_error_message">Loading failed, network error!</string>
+    <string name="ok">Ok</string>
+    <string name="description">Description</string>
+    <string name="overview">Overview</string>
+    <string name="indoor_amenities">Indoor amenities</string>
+    <string name="outdoor_amenities">Outdoor amenities</string>
+    <string name="distances">Distances</string>
+    <string name="location">Location</string>
+    <string name="agent_details">Agent details</string>
+    <string name="preview_on_website">Preview on website!</string>
+    <string name="add_property">Add your property</string>
+    <string name="open_website">Open website</string>
+    <string name="search_map_hint">Address</string>
+    <string name="location_unavailable">"Location not available"</string>
+    <string name="my_location">My location</string>
+    <string name="address_not_found">Address not found</string>
+    <string name="view_details">View details</string>
+    <string name="advanced_search">Advanced search</string>
+    <string name="search">Search</string>
+    <string name="fields_not_loaded">Fields not loaded</string>
+    <string name="min">Min.</string>
+    <string name="max">Max.</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="all">All</string>
+    <string name="price">Price</string>
+    <string name="order_by">Order by</string>
+    <string name="by_date_asc">By date ASC</string>
+    <string name="by_date_desc">By date DESC</string>
+    <string name="by_price_asc">By price ASC</string>
+    <string name="by_price_desc">By price DESC</string>
+
+    <string name="addPayment">Add Payment Method</string>
+    <string name="paymentMethods">Payment Methods</string>
+
+    <string name="endingIn">Card ending in </string>
+    <string name="progressMessage">Creating Token&#8230;</string>
+    <string name="validationErrors">Validation Errors</string>
+
+    <string name="cardNumber">Card Number</string>
+    <string name="save">Save</string>
+    <string name="cvc">CVC</string>
+
+    <string-array name="currency_array">
+        <item>Currency (optional)</item>
+        <item>Unspecified</item>
+        <item>USD</item>
+    </string-array>
+
+</resources>

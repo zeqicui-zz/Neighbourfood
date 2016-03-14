@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="128dp"
+            android:background="@color/black"
+            android:layout_height="96dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="128dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="@string/view_details"
+        android:autoLink="web"
+        android:clickable="true"
+        android:id="@+id/button_link"
+        android:background="@color/colorPrimary"
+        >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_repeat"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+
+        >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/searchText"
+            android:layout_toLeftOf="@+id/searchButton"
+            android:layout_toStartOf="@+id/searchButton"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:hint="@string/search_map_hint"
+            android:layout_marginRight="10dp"
+            android:padding="5sp"
+            android:singleLine="true"
+            android:layout_alignParentTop="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/searchButton"
+            android:src="@mipmap/navigate"
+            android:background="@color/black"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <com.google.android.gms.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/near_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/footer_fixed"
+            android:layout_alignParentBottom="true"
+            android:layout_height="20pt"
+            android:layout_width="fill_parent"
+            />
+    </RelativeLayout>
+    </LinearLayout>

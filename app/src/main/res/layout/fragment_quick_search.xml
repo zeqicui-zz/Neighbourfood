@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:background="@drawable/back_repeat"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+
+        >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/searchText"
+            android:layout_toLeftOf="@+id/searchButton"
+            android:layout_toStartOf="@+id/searchButton"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:hint="@string/search_hint"
+            android:layout_marginRight="10dp"
+            android:padding="5sp"
+            android:singleLine="true"
+            android:layout_alignParentTop="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/searchButton"
+            android:src="@mipmap/search"
+            android:background="@color/black"
+             />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <ProgressBar
+        android:id="@+id/footer_fixed"
+        android:layout_alignParentBottom="true"
+        android:layout_height="20pt"
+        android:layout_width="fill_parent"
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:id="@android:id/list"
+        android:layout_above="@id/footer_fixed">
+    </ListView>
+
+        <TextView
+            android:id="@+id/empty"
+            android:text="@string/empty_message"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            />
+</RelativeLayout>
+    </LinearLayout>
